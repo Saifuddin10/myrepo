@@ -24,6 +24,7 @@ public class Company {
         Employe.num = 45;
         a2.change();
 
+
     }
 }
 
