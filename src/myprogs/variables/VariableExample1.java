@@ -15,7 +15,5 @@ public class VariableExample1 {
         } else {
             System.out.println("i am not greater than 50");
         }
-
-
     }
 }
