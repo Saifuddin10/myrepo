@@ -11,4 +11,5 @@ public class LoopsExample2 {
             System.out.println(i + "*" + j + "=" + i * j);
         }
     }
+
 }
