@@ -5,12 +5,12 @@ public class LoopsExample1 {
         int i;
         for (i = 1; i <= 5; i++) {
 
-        }
-        for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i; j++) {
 
-            System.out.println("* ");
+                System.out.println("* ");
+            }
+            System.out.println();
         }
-        System.out.println();
+
     }
-
 }
