@@ -1,6 +1,4 @@
-package myprogs.Arrays;
-
-import java.util.ArrayList;
+package myprogs.SingleDimensionalArrays;
 
 public class ArraysExample1 {
     public static void main(String[] args) {

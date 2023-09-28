@@ -1,4 +1,4 @@
-package myprogs.Arrays;
+package myprogs.SingleDimensionalArrays;
 
 import java.util.Scanner;
 
