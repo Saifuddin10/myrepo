@@ -1,4 +1,4 @@
-package myprogs.Arrays;
+package myprogs.SingleDimensionalArrays;
 
 public class ArraysExample2 {
     public static void main(String[] args) {

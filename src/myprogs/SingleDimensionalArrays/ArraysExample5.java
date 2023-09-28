@@ -1,8 +1,8 @@
-package myprogs.Arrays;
+package myprogs.SingleDimensionalArrays;
 
 import java.util.Scanner;
 
-public class ArrayExample7 {
+public class ArraysExample5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[5];
@@ -11,15 +11,14 @@ public class ArrayExample7 {
             int a = sc.nextInt();
             arr[i] = a;
         }
-        for (int var : arr) {
-            if (var % 2 == 0) {
-                System.out.println("Even numbers are :" + var + " ");
-            }
-        }
-        for (int var1 : arr) {
-            if (var1 % 2 != 0) {
-                System.out.println("Odd numbers are :" + var1 + " ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.println("Even number = " + arr[i] );
+            } else {
+                System.out.println(arr[i] + " is an odd number");
             }
         }
     }
 }
+
+
