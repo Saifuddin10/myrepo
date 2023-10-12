@@ -23,6 +23,5 @@ class Rectangle extends Shape {
         System.out.println("Radious of circle :" + circle.radius);
         System.out.println("Circel perimeter is :" + circle.getPerimeter());
         System.out.println("Circle Area is :" + circle.getArea());
-
     }
 }
