@@ -12,9 +12,6 @@ package myprogs;
      }
  }
 
-
-
-
 public class Company {
     public static void main(String[] args) {
         Employe a1 = new Employe();
