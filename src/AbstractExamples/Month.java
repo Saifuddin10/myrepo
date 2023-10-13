@@ -13,6 +13,10 @@ public abstract class Month {
         this.companyName = companyName;
     }
 
+    public Month() {
+
+    }
+
     public String getName() {
         return name;
     }

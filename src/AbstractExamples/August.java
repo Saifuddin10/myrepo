@@ -1,7 +1,7 @@
 package AbstractExamples;
 
 public class August extends Month {
-    boolean savings = false;
+    boolean savings = true;
 
     public August(String name,
                   int salary,
@@ -10,21 +10,26 @@ public class August extends Month {
         super(name, salary, costs, companyName);
     }
 
-    public void monthlySavings() {
-        System.out.println("Your monthly savings are : " + calculateSavings());
-        if (calculateSavings() < costs) {
-            savings = true;
+    public August() {
+        super();
+    }
+
+    public void monthlySavings(int salary, int costs) {
+        int totalSavings = calculateSavings(salary, costs);
+        System.out.println("Your monthly savings are : " + totalSavings);
+        if (!savings) {
             System.out.println("Your savings is Bad");
         } else {
             System.out.println("Your savings are Good");
         }
-        //check whether his/her savings are good or bad
     }
 
-    public int calculateSavings() {
-        int calculateSavings = salary - costs;
-        return calculateSavings;
-        //calculate savings and check condition
+    public int calculateSavings(int salary, int costs) {
+        int savedMoney = salary - costs;
+        if (savedMoney < costs) {
+            savings = false;
+        }
+        return savedMoney;
     }
 
     public void getMonthlyPayslip(August august) {
@@ -35,10 +40,20 @@ public class August extends Month {
         // Print all the remaining fields
     }
 
+    @Override
+    public void monthlySavings() {
+
+    }
+
+    @Override
+    public int calculateSavings() {
+        return 0;
+    }
+
     public static void main(String[] args) {
-        August august = new August("August", 50000, 5000, "TCS");
+        August august = new August("August", 50000, 25000, "TCS");
         august.getMonthlyPayslip(august);
-        august.monthlySavings();
+        august.monthlySavings(august.salary, august.costs);
         august.calculateSavings();
     }
 
