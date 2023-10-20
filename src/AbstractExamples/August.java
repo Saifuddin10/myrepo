@@ -36,7 +36,7 @@ public class August extends Month {
         System.out.println("Company Name : " + august.getCompanyName());
         System.out.println("Name of the month : " + august.getName());
         System.out.println("Total salary : " + august.getSalary());
-        System.out.println("Expences : " + august.getCosts());
+        System.out.println("Expenses : " + august.getCosts());
         // Print all the remaining fields
     }
 
