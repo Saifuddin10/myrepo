@@ -4,7 +4,7 @@ public abstract class Month {
     private String name;
     protected int salary;
     protected int costs;
-    private String companyName;
+    protected String companyName;
 
     public Month(String name, int salary, int costs, String companyName) {
         this.name = name;

@@ -15,14 +15,14 @@ class September extends August {
     public static void main(String[] args) {
         September september = new September();
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your company name : ");
+        String companyName = sc.nextLine();
         System.out.println("Enter the month name : ");
         String name = sc.nextLine();
         System.out.println("Enter your salary : ");
         int salary = sc.nextInt();
         System.out.println("Enter your Expenses : ");
         int cost = sc.nextInt();
-        System.out.println("Enter your company name : ");
-        String companyName = sc.nextLine();
         september.setName(name);
         september.setSalary(salary);
         september.setCosts(cost);
