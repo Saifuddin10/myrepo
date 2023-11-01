@@ -49,6 +49,7 @@ public class Admin extends Restaurant {
         System.out.println("Enter number of items you are going to add : ");
         int no = sc.nextInt();
         sc.nextLine();
+        //admin adding items in restaurant
         for (int i = 0; i < no; i++) {
             System.out.println("Enter your item " + (i + 1) + " details");
             System.out.println("Enter the Item name : ");
@@ -83,6 +84,7 @@ public class Admin extends Restaurant {
 //            orderCount = sc.nextInt();
 //            sc.nextLine();
 //        }
+        // user giving order
         for (int i = 0; i < orderCount; i++) {
             System.out.println("Please choose Item : " + (i + 1));
             String givenItem = sc.nextLine();
