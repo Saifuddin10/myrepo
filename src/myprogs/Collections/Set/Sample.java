@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Set;
 
 public class Sample {
-    List<String> str = new ArrayList<>();
-
     public static void main(String[] args) {
-        Set<String> s = new HashSet<>();
-        s.add("Saif");
-        s.add("Vishnu");
-        s.add("Gowtham");
-        s.add("VVR");
-        s.add("VVR");
-        System.out.println(s);
+        List<String> arrayList = new ArrayList<>();
+        arrayList.add("Banana");
+        arrayList.add("Apple");
+        arrayList.add("Banana");
+        arrayList.add("Orange");
+        arrayList.add("Apple");
+        arrayList.add("Orange");
+        Set<String> set = new HashSet<>(arrayList);
+        System.out.println("Set elements: " + set);
     }
 }
