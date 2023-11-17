@@ -6,7 +6,7 @@ public class SwitchExample2 {
         //check that variable equals to 3 ,5, 7 using switch
         //default message -> does not belong to 3,5,7
         int a = 1;
-        int b = 2;
+        int b = 4;
         int c = a + b;
         switch (c) {
             case 3:

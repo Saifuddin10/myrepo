@@ -1,9 +1,10 @@
 package myprogs.StringFunctions;
 
 public class StringFunctions {
+
     public static void main(String[] args) {
         String str = "Hello Java";
-        int num = 36;
+        int num = 36/0;
         String str1 = String.valueOf(num);
         //charAt() method will accept only integer datatype values as method argument.
         System.out.println(str.charAt(2));
