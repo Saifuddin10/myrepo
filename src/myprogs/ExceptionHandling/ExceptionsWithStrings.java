@@ -1,16 +1,17 @@
 package myprogs.ExceptionHandling;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ExceptionsWithStrings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter user name : ");
         String userName = sc.nextLine();
-        if (userName.contains("$")){
+        if (userName.contains("$")) {
             System.out.println("User name is not valid");
-        }else {
+        } else {
             System.out.println("User name is valid");
+
         }
     }
 }
