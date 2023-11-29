@@ -15,7 +15,7 @@ public class CurrentBillExample {
         if (a < 100) {
             billAmount = a * 5;
         } else if (a >= 100 && a < 750) {
-            billAmount = (100 * 7.5) + ((a-100) * 7.5);
+            billAmount = (100 * 7.5) + ((a - 100) * 7.5);
         } else if (a > 750 && a <= 1500) {
             billAmount = (a - 750) * 15 + ((a - (a - 750) - 100)) * 7.5 + (100 * 5);
         }

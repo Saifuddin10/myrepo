@@ -2,7 +2,7 @@ package myprogs.SwitchExample;
 
 public class SwitchExample2 {
     public static void main(String[] args) {
-        //tow variables,add and store in another variable
+        //two variables,add and store in another variable
         //check that variable equals to 3 ,5, 7 using switch
         //default message -> does not belong to 3,5,7
         int a = 1;

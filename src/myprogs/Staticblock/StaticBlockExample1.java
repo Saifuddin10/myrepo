@@ -1,4 +1,4 @@
-package myprogs.staticblock;
+package myprogs.Staticblock;
 
 public class StaticBlockExample1 {
     static {
